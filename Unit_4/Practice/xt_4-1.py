@@ -12,9 +12,11 @@ class Solution:
         self.weekend = sum(self.revenue[6::1])
 
     def __str__(self):
-        print_str = (f'The total of Revenue during weekdays is {self.weekday}\n'
-                     f'The total of Revenue during weekends is {self.weekend}\n'
-                     f'And the Difference between Weekdays and Weekends is {self.calculate_difference()}')
+        print_str = (
+            f'The total of Revenue during weekdays is {self.weekday}\n'
+            f'The total of Revenue during weekends is {self.weekend}\n'
+            f'And the Difference between Weekdays and Weekends is {self.calculate_difference()}'
+        )
         return print_str
 
     def calculate_difference(self):

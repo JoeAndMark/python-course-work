@@ -1,0 +1,6 @@
+f1 = open('1.png', 'rb')
+data = f1.read()
+f2 = open('2.png', 'wb')
+f2.write(data)
+f1.close()
+f2.close()

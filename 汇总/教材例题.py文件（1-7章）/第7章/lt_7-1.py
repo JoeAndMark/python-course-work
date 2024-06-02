@@ -1,0 +1,6 @@
+file1 = open('E:\\python\\testfile1.txt', 'w')
+file1.write("欢迎学习Python语言\n")
+file1.write('The Zen of Python, by Tim Peters\n')
+file1.write('\n')
+file1.write('Beautiful is better than ugly.\n')
+file1.close()

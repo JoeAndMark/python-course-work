@@ -1,0 +1,2 @@
+def frequence(lst):
+    x = 

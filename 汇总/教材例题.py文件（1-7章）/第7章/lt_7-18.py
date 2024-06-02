@@ -1,0 +1,7 @@
+ft = open("E:\\python\\char.txt", 'rb')
+fb = open("E:\\python\\char.bin", 'wb')
+data = ft.read()
+print(data)
+fb.write(data)
+ft.close()
+fb.close()

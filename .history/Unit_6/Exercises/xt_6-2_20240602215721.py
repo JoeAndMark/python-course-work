@@ -1,0 +1,2 @@
+def MyGcd(m, n):
+    
